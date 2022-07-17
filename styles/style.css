@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald:wght@300&family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+
+body {
+    background-color: #F3F1FF;
+
+    font-family: 'Poppins';
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFFFFFFF;
+    width: 870px;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,10 +27,7 @@
     height: 56px;
 }
 
-
 .player {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 10px;
 }
