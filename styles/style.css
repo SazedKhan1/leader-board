@@ -95,6 +95,11 @@ hr {
 /* ------------------------- 
                      courses style
 --------------------------*/
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
 
 .course .course-banner img {
     width: 266px;
@@ -113,4 +118,9 @@ hr {
 
 .fa-star.empty {
     color: #AEAEAE;
+}
+
+.course-duration {
+    background-color: lightpink;
+    border-radius: 5%;
 }
