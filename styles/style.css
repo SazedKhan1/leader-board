@@ -12,6 +12,7 @@ main {
     justify-content: center;
 }
 
+/* section */
 .container {
     background-color: #FFFFFFFF;
     width: 870px;
@@ -21,8 +22,10 @@ main {
 .section-title {
     color: #562EFF;
     font-size: 24px;
+    margin-bottom: 30px;
 }
 
+/* .top-players */
 .top-players {
     margin-bottom: 30px;
 }
@@ -52,36 +55,38 @@ hr {
 }
 
 /* blog */
-.top-blog {}
-
-.blog-title {
-    color: #562EFF;
-    font-size: 24px;
-}
-
-.blogs {
+.Top-blog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-.blog {
+
+.blogs {
     display: flex;
     align-items: center;
 }
 
-.blog img {
+/* .thumbnail {} */
+
+.thumbnail img {
     width: 177px;
     height: 117px;
 }
 
-.blog-subject {}
-
-.Author {
-    color: #9F9F9F
+.blog-info {
+    margin-left: 10px;
 }
 
-.Author a {
+.blog-title {
+    color: #000000;
+
+}
+
+.blog-author {
+    color: #D1D1D1;
+}
+
+.blog-author a {
     text-decoration: none;
-    color: indianred;
 }
