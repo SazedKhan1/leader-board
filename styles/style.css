@@ -106,6 +106,12 @@ hr {
     height: 141px;
 }
 
+.course-author {
+    color: darkblue;
+    font-size: 13px;
+    font-weight: 900;
+}
+
 .course-info {
     display: flex;
     align-items: center;
@@ -123,4 +129,35 @@ hr {
 .course-duration {
     background-color: lightpink;
     border-radius: 5%;
+}
+
+/* media Quarry */
+/* for Android */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+
+
+    }
+
+    .players,
+    .Top-blog,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .blogs {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .players,
+    .Top-blog,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
